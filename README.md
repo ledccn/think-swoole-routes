@@ -4,7 +4,7 @@ think-swoole路由加载器
 
 ## 安装
 
-`composer require swoole-routes`
+`composer require ledc/swoole-routes`
 
 ## 使用说明
 
