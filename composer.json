@@ -1,0 +1,28 @@
+{
+  "name": "ledc/swoole-routes",
+  "description": "think-swoole路由加载器",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "david",
+      "email": "367013672@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ledc\\SwooleRoutes\\": "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "Ledc\\SwooleRoutes\\Service"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "topthink/framework": ">=6.0"
+  }
+}
