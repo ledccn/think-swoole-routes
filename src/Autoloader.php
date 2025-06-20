@@ -53,7 +53,7 @@ final class Autoloader
      * @param string $directory 路由目录
      * @return void
      */
-    private static function batchFile(string $directory): void
+    public static function batchFile(string $directory): void
     {
         if (is_dir($directory)) {
             foreach (glob(rtrim($directory, '/\\') . DIRECTORY_SEPARATOR . '*.php') as $file) {
